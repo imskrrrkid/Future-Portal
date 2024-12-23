@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+/* body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body .yes {
+    display: flex;
+    flex-direction: column;
+}  
+
+body .yes .title-fix {
+    display: flex;
+    align-items: center;
+}
+body .yes .title-fix h1 {
+    color: black;
+    font-size: 2rem;
+    margin-left: 5px;
+    font-family: sans-serif;
+
+}
+body .yes .title-fix span {
+    margin-left: 8px;
+}
+/* Main  */
+.main {
+    padding: 5px;
+    position: relative;
+    margin-top: 5px;
+}
+
+/* Names */
+.main .names {
+    display: flex;
+    justify-self: flex-start;
+}
+.main .names .username #username    {
+    font-weight: 600;
+}
+
+/* Email */
+.main .passw {
+    display: flex;
+    align-items: center;
+    max-width: 15rem;
+    margin-top: 5px;
+}
+.main .passw .password {
+   align-items :start;
+}
+
+/* Input field */
+.main input {
+    background-color: transparent;
+    border: 1px solid rgb(219, 219, 219);
+    outline: none;
+    border-radius: 2px;
+    padding: 5px 5px;
+    width: 350px;
+    font-size: 1rem;
+    margin: 2px;
+    cursor: pointer;
+}
+.main input:focus {
+    border: 1px solid black;
+    cursor: text;
+}
+
+/* Textarea form */
+.main .text {
+    display: flex;
+    justify-content: center;
+}
+
+.main textarea {
+    min-width: 340px;
+    max-width: 340px;
+    min-height: 100px;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 10px;
+    outline: none;
+    border-radius: 2px;
+    resize: none;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(207, 207, 207)
+    transparent;
+    font-family: sans-serif;
+}
+.main textarea:focus {
+    border: 1px solid black;
+}
+
+/* Submit Button */
+.yes button {
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    width: 96%;
+    padding: 10px 0;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1.3rem;
+}
+.sub-btn{
+    cursor: wait;
+    background-color: gray;
+}
+
+/* CheckBox */
+
+.checkbox-con {
+    display: inline-flex;   
+    align-items: center;   
+    gap: 8px;            
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 8px;
+    margin: 5px 0; 
+}
